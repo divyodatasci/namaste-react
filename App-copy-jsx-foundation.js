@@ -47,5 +47,5 @@ const HeadingComp2 = () => (
 )
 
 const root2 = ReactDOM.createRoot(document.getElementById("root-2"));
-root.render(<HeadingComponent/>);
-root2.render(<HeadingComp2/>)
+// root.render(<HeadingComponent/>);
+// root2.render(<HeadingComp2/>)

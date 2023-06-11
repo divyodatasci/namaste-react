@@ -1,16 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
-
-// const heading = React.createElement("h1", {id: "heading"}, "Hello World From React");
-
-//React element using JSX 
-
-const jsxHeading = <h1 id='heading'> Hello World From React using JSX </h1>
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-const restaurantData = [
+export const RESTAURANT_DATA = [
     {
         "info": {
             "id": "544231",
@@ -1345,71 +1333,7 @@ const restaurantData = [
     }
 ]
 
-const HeaderComponent = () => {
-    return (
-        <div className='header'>
-            <div>
-                <img className='logo' src="https://www.designevo.com/res/templates/thumb_small/quick-takeaway-icon.webp"></img>
-            </div>
-            <div>
-                <div className='nav-items'>
-                    <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Contact Us</li>
-                        <li>Cart</li>
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-    )
-}
+export const LOGO_URL = "https://www.designevo.com/res/templates/thumb_small/quick-takeaway-icon.webp";
 
-const Search = () => {
-    return (
-        <h2>Search</h2>
-    )
-}
+export const RES_LOGO_URL = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 
-const RestaurantCard = ({resData}) => {
-    const {name, cuisines, avgRatingString, cloudinaryImageId} = resData?.info;
-    const cusinesString = cuisines.join(', ');
-    return (
-        <div className='res-card'>
-            <img className="res-logo" src={"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId}></img>
-            <h1> {name}</h1>
-            <h2>{cusinesString}</h2>
-            <h3>{avgRatingString}*</h3>
-           
-        </div>
-    )
-}
-const RestaurantCardContainer = () => {
-    return (
-        <div className='res-card-container'>
-            {
-                restaurantData.map((restaurant)=> <RestaurantCard key = {restaurant.info.id} resData = {restaurant}/>)
-            }
-        </div>
-    )
-} 
-
-const Body = () => {
-    return (
-        <div>
-            <Search />
-            <RestaurantCardContainer />
-            
-        </div>
-    );
-}
-const AppLayout = () => {
-    return (
-        <div className='app-layout'>
-            <HeaderComponent />
-            <Body />
-        </div>
-    )
-}
-root.render(<AppLayout/>);
