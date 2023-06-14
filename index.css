@@ -40,3 +40,15 @@
     padding: 2px;
     border: 5px solid orange;
 }
+
+.filter {
+    margin: 30px auto;
+}
+
+.filter-btn {
+    padding: 15px;
+    color: burlywood;
+    background-color: #662a05;
+    cursor: pointer;
+    border-radius: 5px;
+}

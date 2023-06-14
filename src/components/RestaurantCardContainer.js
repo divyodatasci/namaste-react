@@ -1,11 +1,11 @@
 import RestaurantCard from "./RestaurantCard";
-import { RESTAURANT_DATA, restaurantData } from "../utils/constant";
+import { RESTAURANT_DATA } from "../utils/constant";
 
-const RestaurantCardContainer = () => {
+const RestaurantCardContainer = ({resData}) => {
     return (
         <div className='res-card-container'>
             {
-                RESTAURANT_DATA.map((restaurant)=> <RestaurantCard key = {restaurant.info.id} resData = {restaurant}/>)
+                resData.map((restaurant)=> <RestaurantCard key = {restaurant.info.id} resData = {restaurant}/>)
             }
         </div>
     )
