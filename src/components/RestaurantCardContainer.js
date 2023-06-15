@@ -5,7 +5,7 @@ const RestaurantCardContainer = ({resData}) => {
     return (
         <div className='res-card-container'>
             {
-                resData.map((restaurant)=> <RestaurantCard key = {restaurant.info.id} resData = {restaurant}/>)
+                resData.map((restaurant)=> <RestaurantCard key = {restaurant.data.data.id} resData = {restaurant}/>)
             }
         </div>
     )
