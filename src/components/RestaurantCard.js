@@ -1,7 +1,7 @@
 import { RES_LOGO_URL } from "../utils/constant";
 
 const RestaurantCard = ({resData}) => {
-    const {name, cuisines, avgRating, cloudinaryImageId} = resData?.data?.data;
+    const {name, cuisines, avgRating, cloudinaryImageId} = resData?.data;
     const cusinesString = cuisines.join(', ');
     return (
         <div className='res-card'>
