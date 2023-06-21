@@ -25,18 +25,20 @@ const Body = () => {
         <div className="body">
             {  //Conditional Rendering
                 (listOfRestaurants.length === 0) ? (<Shimmer />) : (<>
-                    <div className="search">
-                        <input type="text" className="search-box" placeholder="Search" value={searchText} onChange={(e)=>{
-                            setSearchText(e.target.value);
-                        }}></input>
-                        <button className="search-btn" onClick={()=> {
-                            let filteredList = listOfRestaurants.filter((res)=>{
-                                return res.data.name.toLowerCase().includes(searchText.toLowerCase());
-                            })
-                            setFilteredListOfRestaurants(filteredList);
-                        }}>search</button>
-                    </div>
+                    <div className="filter-functionalities">
                     <Filter resData = {filteredListOfRestaurants} setRes = {setFilteredListOfRestaurants} />
+                        <div className="search">
+                            <input type="text" className="search-box" placeholder="Search Restaurant" value={searchText} onChange={(e)=>{
+                                setSearchText(e.target.value);
+                            }}></input>
+                            <button className="search-btn" onClick={()=> {
+                                let filteredList = listOfRestaurants.filter((res)=>{
+                                    return res.data.name.toLowerCase().includes(searchText.toLowerCase());
+                                })
+                                setFilteredListOfRestaurants(filteredList);
+                            }}>Search</button>
+                        </div>
+                    </div>
                     <RestaurantCardContainer resData = {filteredListOfRestaurants} />
                 </>)
             }
