@@ -10,6 +10,7 @@
 
 .nav-items > ul {
     display: flex;
+    align-items: center;
 }
 
 .nav-items >ul > li {
@@ -69,4 +70,15 @@
     border: none;
     height: 50px;
     width: 180px;
+}
+
+button.login-toggle-btn {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 70px;
+    color: burlywood;
+    background-color: #662a05;
+    cursor: pointer;
 }
