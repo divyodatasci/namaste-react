@@ -1336,4 +1336,5 @@ export const RESTAURANT_DATA_API_URL = "https://www.swiggy.com/dapi/restaurants/
 export const LOGO_URL = "https://www.designevo.com/res/templates/thumb_small/quick-takeaway-icon.webp";
 
 export const RES_LOGO_URL = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
+export const RES_MENU_API_URL = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.5683324&lng=88.5094512&restaurantId="
 
