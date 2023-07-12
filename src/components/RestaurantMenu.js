@@ -1,19 +1,11 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { RES_MENU_API_URL } from "../utils/constant";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
+
 
 const RestaurantMenu = () => {
-    const [restaurantDetails, setRestaurantDetails] = useState(" ");
     const { resId } = useParams();
-    useEffect(() => {
-        fetchMenu();
-    }, [])
-    const fetchMenu = async function(){
-        let menuApiData = await fetch(RES_MENU_API_URL+resId);
-        let menuJson = await menuApiData.json();
-        console.log(menuJson);  
-        setRestaurantDetails(menuJson);
-    }
+    const restaurantDetails = useRestaurantMenu(resId);
     // console.log(restaurantDetails?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR.cards[1]?.card?.card?.itemCards);
     return ( 
         <div className="restaurant-details">

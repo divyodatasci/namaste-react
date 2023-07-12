@@ -6,7 +6,7 @@ const Filter = (props) => {
             });
             props.setRes(newList);
             }}>
-            <button className="filter-btn" >
+            <button className="filter-btn bg-gray-300 py-2 px-4 my-auto rounded-lg" >
                      Top Rated Restaurants 
             </button>
         </div>    
