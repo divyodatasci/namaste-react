@@ -17,11 +17,10 @@ const Body = () => {
         let resJson = await apiData.json();
         setListOfRestaurants(resJson.data.cards[2].data.data.cards);
         setFilteredListOfRestaurants(resJson.data.cards[2].data.data.cards);
-        console.log(filteredListOfRestaurants);
+
     }
 
     const [searchText, setSearchText] = useState("");
-    console.log(useOnlineStatus())
     if(!useOnlineStatus()){return (<div>
         <h1> You'r internet seems to be disconnect, Please check your connection!</h1>
     </div>); }
