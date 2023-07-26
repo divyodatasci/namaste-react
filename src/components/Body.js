@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { RESTAURANT_DATA_API_URL } from "../utils/constant";
+import { RESTAURANT_DATA_API_URL, RESTAURANT_DATA_API_URL_2 } from "../utils/constant";
 import RestaurantCardContainer from "./RestaurantCardContainer";
 import Shimmer from "./Shimmer";
 import Filter from "./Filter";
@@ -17,7 +17,6 @@ const Body = () => {
         let resJson = await apiData.json();
         setListOfRestaurants(resJson.data.cards[2].data.data.cards);
         setFilteredListOfRestaurants(resJson.data.cards[2].data.data.cards);
-
     }
 
     const [searchText, setSearchText] = useState("");
