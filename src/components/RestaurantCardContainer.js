@@ -7,7 +7,7 @@ const RestaurantCardContainer = ({resData}) => {
         <div className='res-card-container flex flex-wrap justify-center'>
             {
                 resData.map((restaurant)=> { 
-                    return (restaurant.data.promoted ? <PromotedRestaurantCard key = {restaurant.data.id} resData = {restaurant}/> : <RestaurantCard key = {restaurant.data.id} resData = {restaurant} />)})
+                    return (restaurant.info.promoted ? <PromotedRestaurantCard key = {restaurant.info.id} resData = {restaurant}/> : <RestaurantCard key = {restaurant.info.id} resData = {restaurant} />)})
             }
         </div>
     )

@@ -1,9 +1,10 @@
 const useCategoryWiseMenu = (restaurantDetails) => {
     let categories = [];
-    const createCategory = (element) => {
+    const createCategory = (element, prefix) => {
+        console.log(element);
         if(element['@type']?.includes('NestedItemCategory')){
             element['categories'].forEach(subCategory => {
-                createCategory(subCategory);
+                element.categories.length > 1 ? createCategory(subCategory, element.title) :createCategory(subCategory);
             })
         }
         else {
@@ -13,9 +14,9 @@ const useCategoryWiseMenu = (restaurantDetails) => {
              })
 
             let category = {
-                categoryTitle: element.title,
+                categoryTitle: prefix ? prefix + " " + element.title : element.title,
                 categoryMenuItems: menuItems,
-                categoryKey: element.type ? element.type : element.title.toUpperCase().replaceAll(/[^a-zA-Z0-9 ]/g, '').replaceAll(' ', '_')
+                categoryKey: element.type ? element.type : (prefix ? prefix.toUpperCase().replaceAll(/[^a-zA-Z0-9 ]/g, '').replaceAll(' ', '_') + '_'+ element.title.toUpperCase().replaceAll(/[^a-zA-Z0-9 ]/g, '').replaceAll(' ', '_'):element.title.toUpperCase().replaceAll(/[^a-zA-Z0-9 ]/g, '').replaceAll(' ', '_') )
             };
             categories.push( category);
         }    

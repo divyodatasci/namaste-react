@@ -15,8 +15,11 @@ const Body = () => {
     async function fetchData() {
         let apiData = await fetch(RESTAURANT_DATA_API_URL);
         let resJson = await apiData.json();
-        setListOfRestaurants(resJson.data.cards[2].data.data.cards);
-        setFilteredListOfRestaurants(resJson.data.cards[2].data.data.cards);
+        console.log(resJson.data.success.cards[1].card.card.gridElements.infoWithStyle.restaurants);
+        // setListOfRestaurants(resJson.data.cards[2].data.data.cards);
+        // setFilteredListOfRestaurants(resJson.data.cards[2].data.data.cards);
+        setListOfRestaurants(resJson.data.success.cards[1].card.card.gridElements.infoWithStyle.restaurants);
+        setFilteredListOfRestaurants(resJson.data.success.cards[1].card.card.gridElements.infoWithStyle.restaurants);
     }
 
     const [searchText, setSearchText] = useState("");

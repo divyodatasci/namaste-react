@@ -11,6 +11,10 @@ const RestaurantMenu = () => {
     console.log(restaurantDetails);
     const restaurantInfo = restaurantDetails?.data?.cards[0]?.card?.card?.info;
     const categories = useCategoryWiseMenu(restaurantDetails);
+    const [showIndex, setShowIndex] = useState(null);
+    const menuExpanded = (categoryNumber) => {
+        setShowIndex(categoryNumber);
+    }
     return ( 
         <div className="restaurant-menu  mx-auto my-0 w-2/4">
             <div className="restaurant-details text-center font-bold">
@@ -18,8 +22,10 @@ const RestaurantMenu = () => {
              <h4>{restaurantInfo?.areaName} {restaurantInfo?.city} </h4>
             </div>
             <div>
-            {categories.map((category) => {
-               return <RestaurantCategory key= {category.categoryKey} category={category}/>   
+            {categories.map((category,index) => {
+               return <RestaurantCategory key= {category.categoryKey} 
+               category={category} menuExpanded = {menuExpanded} index ={index} 
+               showItems = {showIndex === index ? true : false }/>   
             })}
             </div>
         </div>);

@@ -2,7 +2,7 @@ import { RES_LOGO_URL } from "../utils/constant";
 import { Link } from "react-router-dom";
 
 const RestaurantCard = ({resData}) => {
-    const {name, cuisines, avgRating, cloudinaryImageId, id} = resData?.data;
+    const {name, cuisines, avgRating, cloudinaryImageId, id} = resData?.info;
     const cusinesString = cuisines.join(', ');
     let res_id = `res_${id}`;
     return (

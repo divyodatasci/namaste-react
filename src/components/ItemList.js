@@ -10,7 +10,7 @@ const ItemList = ({category}) => {
                 <div className=" p-2 text-md font-medium flex justify-between h-24 overflow-hidden"> 
                     <div className=" w-9/12">
                         <p>{menuItem.name}</p> 
-                        <p>₹{menuItem.price / 100}</p>
+                        <p>₹{(menuItem.price ? menuItem.price: menuItem.defaultPrice) / 100}</p>
                         <p className=" text-xs font-extralight">{menuItem.description}</p>
                     </div>
                     <div className=" w-2/12 h-6/6 overflow-hidden">
