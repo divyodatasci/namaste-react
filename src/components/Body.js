@@ -1,14 +1,15 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { RESTAURANT_DATA_API_URL, RESTAURANT_DATA_API_URL_2 } from "../utils/constant";
 import RestaurantCardContainer from "./RestaurantCardContainer";
 import Shimmer from "./Shimmer";
 import Filter from "./Filter";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
     const [listOfRestaurants, setListOfRestaurants] = useState([]);
     const [filteredListOfRestaurants,setFilteredListOfRestaurants] = useState([]);
-
+    const data = useContext(UserContext);
     useEffect(()=> {
         fetchData()
     }, []);
@@ -32,7 +33,7 @@ const Body = () => {
                 (listOfRestaurants.length === 0) ? (<Shimmer />) : (<>
                     <div className="filter-functionalities flex items-center">
                         <div className="search m-4 p-4 flex gap-6">
-                            <input type="text" className="search-box border border-solid border-black" placeholder="Search Restaurant" value={searchText} onChange={(e)=>{
+                            <input type="text" className="border border-solid border-black p-2" placeholder="Search Restaurant" value={searchText} onChange={(e)=>{
                                 setSearchText(e.target.value);
                             }}></input>
                             <button className="search-btn px-4 py-2 bg-green-200 rounded-lg" onClick={()=> {
@@ -43,7 +44,10 @@ const Body = () => {
                             }}>Search</button>
                         </div>
                         <Filter resData = {filteredListOfRestaurants} setRes = {setFilteredListOfRestaurants} />
-                        
+                        <label className=" m-4 p-2"> Username </label>
+                        <input type="text" className="border border-solid border-black p-2" value= {data.loggedInUser} onChange={(e)=>{
+                                data.setUserInfo(e.target.value);
+                            }}></input>
                     </div>
                     <RestaurantCardContainer resData = {filteredListOfRestaurants} />
                 </>)
