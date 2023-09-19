@@ -3,10 +3,13 @@ import { LOGO_URL } from "../utils/constant";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
+import { useSelector } from "react-redux";
 
 const Header = () => {
     const [buttonLabel, setButtonLabel] = useState("Login");
     const data = useContext(UserContext);
+    const cartItems = useSelector((store) => store.cart.items);
+    console.log(cartItems);
     return (
         <div className='flex justify-between shadow-lg mb-2 bg-orange-200'>
             <div>
@@ -18,7 +21,7 @@ const Header = () => {
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/about-us'>About Us</Link></li>
                         <li><Link to='/contact-us'>Contact Us</Link></li>
-                        <li>Cart</li>
+                        <li><Link to='/cart'>Cart ( {cartItems.length} items) </Link></li>
                         <li> <button className="login-toggle-btn" onClick={()=> {
                             buttonLabel === 'Login' ? setButtonLabel('Logout') : setButtonLabel('Login');
 
