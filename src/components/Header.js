@@ -9,7 +9,6 @@ const Header = () => {
     const [buttonLabel, setButtonLabel] = useState("Login");
     const data = useContext(UserContext);
     const cartItems = useSelector((store) => store.cart.items);
-    console.log(cartItems);
     return (
         <div className='flex justify-between shadow-lg mb-2 bg-orange-200'>
             <div>

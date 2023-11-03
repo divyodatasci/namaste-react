@@ -6,7 +6,7 @@ const RestaurantCard = ({resData}) => {
     const cusinesString = cuisines.join(', ');
     let res_id = `res_${id}`;
     return (
-        <div className='res-card m-4 p-4 w-[350px] rounded-lg bg-orange-100 hover:bg-orange-200 flex items-center' id = {res_id} >
+        <div className='res-card m-4 p-4 w-[350px] rounded-lg bg-orange-100 hover:bg-orange-200 flex items-center' id = {res_id} data-testid = 'resCard' >
             <Link to={"/restaurants/"+id} className=" my-0 mx-auto">
                 <img className="res-logo w-96 h-56 rounded-lg" src={RES_LOGO_URL + cloudinaryImageId}></img>
                 <h1 className=" font-bold py-4 text-lg"> {name}</h1>

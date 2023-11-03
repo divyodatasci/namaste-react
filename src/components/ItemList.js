@@ -12,7 +12,7 @@ const ItemList = ({category}) => {
         category.categoryMenuItems.map((menuItem)=>{
             console.log(menuItem);
             return (
-            <div key={menuItem.id} >
+            <div key={menuItem.id} data-testid = "foodItems" >
                 <div className=" p-2 text-md font-medium flex justify-between h-24 overflow-hidden"> 
                     <div className=" w-9/12">
                         <p>{menuItem.name}</p> 

@@ -1,0 +1,1686 @@
+{
+    "data": {
+      "tid": "8a269a88-ffac-4ea0-b839-9a0267abe6e8",
+      "sid": "a3ed2457-e8aa-48e7-ad04-6d3600917549",
+      "deviceId": "b98bc414-9d5b-95bd-933a-7da189b90378",
+      "requestId": "4d73c903-5e18-42b9-a3a6-52bed8e3ad4b",
+      "apiTime": "2023-10-25T20:43:03.184Z",
+      "success": {
+        "statusMessage": "done successfully",
+        "pageOffset": {
+          "nextOffset": "CJY7ELQ4KICIx8S9ubvMKjDUEA==",
+          "widgetOffset": {
+            "NewListingView_category_bar_chicletranking_TwoRows": "",
+            "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
+            "Restaurant_Group_WebView_SEO_PB_Theme": "",
+            "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo": "11",
+            "inlineFacetFilter": "",
+            "restaurantCountWidget": ""
+          }
+        },
+        "cards": [
+          {
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+                "sortConfigs": [
+                  {
+                    "key": "relevance",
+                    "title": "Relevance (Default)",
+                    "selected": true,
+                    "defaultSelection": true
+                  },
+                  {
+                    "key": "deliveryTimeAsc",
+                    "title": "Delivery Time"
+                  },
+                  {
+                    "key": "modelBasedRatingDesc",
+                    "title": "Rating"
+                  },
+                  {
+                    "key": "costForTwoAsc",
+                    "title": "Cost: Low to High"
+                  },
+                  {
+                    "key": "costForTwoDesc",
+                    "title": "Cost: High to Low"
+                  }
+                ],
+                "restaurantCount": 1361,
+                "facetList": [
+                  {
+                    "label": "Delivery Time",
+                    "id": "deliveryTime",
+                    "selection": "SELECT_TYPE_MULTISELECT",
+                    "facetInfo": [
+                      {
+                        "label": "Fast Delivery",
+                        "id": "deliveryTimefacetquery1",
+                        "analytics": {},
+                        "openFilter": true
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_HALF_CARD",
+                    "subLabel": "Filter by"
+                  },
+                  {
+                    "label": "Cuisines",
+                    "id": "catalog_cuisines",
+                    "selection": "SELECT_TYPE_MULTISELECT",
+                    "facetInfo": [
+                      {
+                        "label": "American",
+                        "id": "query_american",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Andhra",
+                        "id": "query_andhra",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Arabian",
+                        "id": "query_arabian",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Asian",
+                        "id": "query_asian",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Awadhi",
+                        "id": "query_awadhi",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Bakery",
+                        "id": "query_bakery",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Barbecue",
+                        "id": "query_barbecue",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Bengali",
+                        "id": "query_bengali",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Beverages",
+                        "id": "query_beverages",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Bihari",
+                        "id": "query_bihari",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Biryani",
+                        "id": "query_biryani",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "British",
+                        "id": "query_british",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Burgers",
+                        "id": "query_burgers",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Burmese",
+                        "id": "query_burmese",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Cafe",
+                        "id": "query_cafe",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Cakes and Pastries",
+                        "id": "query_cakes_and_pastries",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Chaat",
+                        "id": "query_chaat",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Chettinad",
+                        "id": "query_chettinad",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Chinese",
+                        "id": "query_chinese",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Coastal",
+                        "id": "query_coastal",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Combo",
+                        "id": "query_combo",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Continental",
+                        "id": "query_continental",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Desserts",
+                        "id": "query_desserts",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "European",
+                        "id": "query_european",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Fast Food",
+                        "id": "query_fast_food",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "French",
+                        "id": "query_french",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Goan",
+                        "id": "query_goan",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Grill",
+                        "id": "query_grill",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Gujarati",
+                        "id": "query_gujarati",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Healthy Food",
+                        "id": "query_healthy_food",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Home Food",
+                        "id": "query_home_food",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Hyderabadi",
+                        "id": "query_hyderabadi",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Ice Cream",
+                        "id": "query_ice_cream",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Ice Cream Cakes",
+                        "id": "query_ice_cream_cakes",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Indian",
+                        "id": "query_indian",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Indonesian",
+                        "id": "query_indonesian",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Italian",
+                        "id": "query_italian",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Italian-American",
+                        "id": "query_italian-american",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Jain",
+                        "id": "query_jain",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Japanese",
+                        "id": "query_japanese",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Juices",
+                        "id": "query_juices",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Kebabs",
+                        "id": "query_kebabs",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Kerala",
+                        "id": "query_kerala",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Keto",
+                        "id": "query_keto",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Konkan",
+                        "id": "query_konkan",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Korean",
+                        "id": "query_korean",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Lebanese",
+                        "id": "query_lebanese",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Lucknowi",
+                        "id": "query_lucknowi",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Maharashtrian",
+                        "id": "query_maharashtrian",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Malaysian",
+                        "id": "query_malaysian",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Mangalorean",
+                        "id": "query_mangalorean",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Mediterranean",
+                        "id": "query_mediterranean",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Mexican",
+                        "id": "query_mexican",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Middle Eastern",
+                        "id": "query_middle_eastern",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Mughlai",
+                        "id": "query_mughlai",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Naga",
+                        "id": "query_naga",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Nepalese",
+                        "id": "query_nepalese",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "North Eastern",
+                        "id": "query_north_eastern",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "North Indian",
+                        "id": "query_north_indian",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Oriental",
+                        "id": "query_oriental",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Paan",
+                        "id": "query_paan",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Pan-Asian",
+                        "id": "query_pan-asian",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Pastas",
+                        "id": "query_pastas",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Pizzas",
+                        "id": "query_pizzas",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Portuguese",
+                        "id": "query_portuguese",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Punjabi",
+                        "id": "query_punjabi",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Raja",
+                        "id": "query_raja",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Rajasthani",
+                        "id": "query_rajasthani",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Rolls & Wraps",
+                        "id": "query_rolls_&_wraps",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Salads",
+                        "id": "query_salads",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Seafood",
+                        "id": "query_seafood",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Snacks",
+                        "id": "query_snacks",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "South Indian",
+                        "id": "query_south_indian",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Sri Lankan",
+                        "id": "query_sri_lankan",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Steakhouse",
+                        "id": "query_steakhouse",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Street Food",
+                        "id": "query_street_food",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Sushi",
+                        "id": "query_sushi",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Sweets",
+                        "id": "query_sweets",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Tandoor",
+                        "id": "query_tandoor",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Tex-Mex",
+                        "id": "query_tex-mex",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Thai",
+                        "id": "query_thai",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Thalis",
+                        "id": "query_thalis",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Tibetan",
+                        "id": "query_tibetan",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Turkish",
+                        "id": "query_turkish",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Vietnamese",
+                        "id": "query_vietnamese",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Waffle",
+                        "id": "query_waffle",
+                        "analytics": {},
+                        "openFilter": true
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_HALF_CARD",
+                    "canSearch": true,
+                    "subLabel": "Filter by cuisine",
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Explore",
+                    "id": "explore",
+                    "selection": "SELECT_TYPE_MULTISELECT",
+                    "facetInfo": [
+                      {
+                        "label": "New on Swiggy",
+                        "id": "newfacetquery1",
+                        "analytics": {},
+                        "openFilter": true
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_HALF_CARD"
+                  },
+                  {
+                    "label": "Ratings",
+                    "id": "rating",
+                    "selection": "SELECT_TYPE_MULTISELECT",
+                    "facetInfo": [
+                      {
+                        "label": "Ratings 4.5+",
+                        "id": "ratingfacetquery3",
+                        "analytics": {}
+                      },
+                      {
+                        "label": "Ratings 4.0+",
+                        "id": "ratingfacetquery4",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Ratings 3.5+",
+                        "id": "ratingfacetquery5",
+                        "analytics": {}
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_HALF_CARD",
+                    "subLabel": "Filter by"
+                  },
+                  {
+                    "label": "Veg/Non-Veg",
+                    "id": "isVeg",
+                    "selection": "SELECT_TYPE_SINGLESELECT",
+                    "facetInfo": [
+                      {
+                        "label": "Pure Veg",
+                        "id": "isVegfacetquery2",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Non Veg",
+                        "id": "isVegfacetquery3",
+                        "analytics": {}
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_FLATTENED",
+                    "subLabel": "Filter by"
+                  },
+                  {
+                    "label": "Offers",
+                    "id": "restaurantOfferMultiTd",
+                    "selection": "SELECT_TYPE_SINGLESELECT",
+                    "facetInfo": [
+                      {
+                        "label": "Offers",
+                        "id": "restaurantOfferMultiTdfacetquery3",
+                        "analytics": {},
+                        "openFilter": true
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_FLATTENED",
+                    "subLabel": "Restaurants with"
+                  },
+                  {
+                    "label": "Cost for two",
+                    "id": "costForTwo",
+                    "selection": "SELECT_TYPE_MULTISELECT",
+                    "facetInfo": [
+                      {
+                        "label": "Rs. 300-Rs. 600",
+                        "id": "costForTwofacetquery3",
+                        "analytics": {},
+                        "openFilter": true
+                      },
+                      {
+                        "label": "Greater than Rs. 600",
+                        "id": "costForTwofacetquery4",
+                        "analytics": {}
+                      },
+                      {
+                        "label": "Less than Rs. 300",
+                        "id": "costForTwofacetquery5",
+                        "analytics": {},
+                        "openFilter": true
+                      }
+                    ],
+                    "viewType": "VIEW_TYPE_HALF_CARD",
+                    "subLabel": "Filter by"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "card": {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                "layout": {
+                  "columns": 4
+                },
+                "id": "restaurant_grid_listing",
+                "gridElements": {
+                  "infoWithStyle": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                    "restaurants": [
+                      {
+                        "info": {
+                          "id": "48581",
+                          "name": "Rotti Walla",
+                          "cloudinaryImageId": "kvlaq1ugkoozqr741zrv",
+                          "locality": "Appareddy Palya",
+                          "areaName": "Indiranagar",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "North Indian",
+                            "Chinese",
+                            "Snacks",
+                            "Beverages",
+                            "Tandoor",
+                            "South Indian"
+                          ],
+                          "avgRating": 4,
+                          "feeDetails": {
+                            "restaurantId": "48581",
+                            "fees": [
+                              {
+                                "name": "BASE_DISTANCE",
+                                "fee": 10000
+                              },
+                              {
+                                "name": "BASE_TIME"
+                              },
+                              {
+                                "name": "ANCILLARY_SURGE_FEE"
+                              }
+                            ],
+                            "totalFee": 10000
+                          },
+                          "parentId": "9541",
+                          "avgRatingString": "4.0",
+                          "totalRatingsString": "10K+",
+                          "sla": {
+                            "deliveryTime": 32,
+                            "lastMileTravel": 8.7,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "32 mins",
+                            "lastMileTravelString": "8.7 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2023-10-26 03:00:00",
+                            "opened": true
+                          },
+                          "badges": {},
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {},
+                              "textBased": {},
+                              "textExtendedBadges": {}
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "₹100 OFF",
+                            "subHeader": "ABOVE ₹499",
+                            "discountTag": "FLAT DEAL"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {},
+                            "subTitle": {},
+                            "message": {},
+                            "customIcon": {}
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {},
+                              "video": {}
+                            }
+                          },
+                          "reviewsSummary": {},
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {},
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/rotti-walla-appareddy-palya-indiranagar-bangalore-48581",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "337335",
+                          "name": "Kannur food kitchen",
+                          "cloudinaryImageId": "a27weqanhnszqiuzsoik",
+                          "locality": "1st  Stage",
+                          "areaName": "BTM Layout",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Kerala",
+                            "Biryani",
+                            "Beverages"
+                          ],
+                          "avgRating": 3.8,
+                          "feeDetails": {
+                            "restaurantId": "337335",
+                            "fees": [
+                              {
+                                "name": "BASE_TIME"
+                              },
+                              {
+                                "name": "BASE_DISTANCE",
+                                "fee": 9000
+                              },
+                              {
+                                "name": "ANCILLARY_SURGE_FEE"
+                              }
+                            ],
+                            "totalFee": 9000
+                          },
+                          "parentId": "114756",
+                          "avgRatingString": "3.8",
+                          "totalRatingsString": "10K+",
+                          "sla": {
+                            "deliveryTime": 27,
+                            "lastMileTravel": 7.6,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "27 mins",
+                            "lastMileTravelString": "7.6 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2023-10-26 04:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "textExtendedBadges": [
+                              {
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available",
+                                "fontColor": "#7E808C"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "aggregatedDiscountInfoV2": {},
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {},
+                              "textBased": {},
+                              "textExtendedBadges": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "",
+                                      "fontColor": "#7E808C",
+                                      "iconId": "guiltfree/GF_Logo_android_3x",
+                                      "shortDescription": "options available"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          "orderabilityCommunication": {
+                            "title": {},
+                            "subTitle": {},
+                            "message": {},
+                            "customIcon": {}
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {},
+                              "video": {}
+                            }
+                          },
+                          "reviewsSummary": {},
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {},
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/kannur-food-kitchen-1st-stage-btm-layout-bangalore-337335",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "132622",
+                          "name": "Marwadi Chaat & Tiffin Services Shanti nagar",
+                          "cloudinaryImageId": "e8f48a82caf1cdc428448f64dba7b61e",
+                          "locality": "Lakshmi road",
+                          "areaName": "Shanthi Nagar",
+                          "costForTwo": "₹300 for two",
+                          "cuisines": [
+                            "Rajasthani",
+                            "North Indian",
+                            "Snacks",
+                            "Chaat"
+                          ],
+                          "avgRating": 3.7,
+                          "veg": true,
+                          "feeDetails": {
+                            "restaurantId": "132622",
+                            "fees": [
+                              {
+                                "name": "BASE_DISTANCE",
+                                "fee": 4400
+                              },
+                              {
+                                "name": "BASE_TIME"
+                              },
+                              {
+                                "name": "ANCILLARY_SURGE_FEE"
+                              }
+                            ],
+                            "totalFee": 4400
+                          },
+                          "parentId": "20091",
+                          "avgRatingString": "3.7",
+                          "totalRatingsString": "5K+",
+                          "sla": {
+                            "deliveryTime": 23,
+                            "lastMileTravel": 3.7,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "23 mins",
+                            "lastMileTravelString": "3.7 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2023-11-01 00:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "imageBadges": [
+                              {
+                                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                "description": "pureveg"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "pureveg",
+                                      "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                    }
+                                  }
+                                ]
+                              },
+                              "textBased": {},
+                              "textExtendedBadges": {}
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "40% OFF",
+                            "subHeader": "UPTO ₹80"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {},
+                            "subTitle": {},
+                            "message": {},
+                            "customIcon": {}
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {},
+                              "video": {}
+                            }
+                          },
+                          "reviewsSummary": {},
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {},
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/marwadi-chaat-and-tiffin-services-shanti-nagar-lakshmi-road-shanthi-nagar-bangalore-132622",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "291456",
+                          "name": "The Fritter Company",
+                          "cloudinaryImageId": "3660c857274de528702f316b4a7a1996",
+                          "locality": "2nd Stage",
+                          "areaName": "Btm Layout",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Burgers",
+                            "American",
+                            "Salads",
+                            "Snacks",
+                            "Desserts",
+                            "Fast Food",
+                            "Continental"
+                          ],
+                          "avgRating": 4.2,
+                          "feeDetails": {
+                            "restaurantId": "291456",
+                            "fees": [
+                              {
+                                "name": "BASE_DISTANCE",
+                                "fee": 10000
+                              },
+                              {
+                                "name": "BASE_TIME"
+                              },
+                              {
+                                "name": "ANCILLARY_SURGE_FEE"
+                              }
+                            ],
+                            "totalFee": 10000
+                          },
+                          "parentId": "21135",
+                          "avgRatingString": "4.2",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 30,
+                            "lastMileTravel": 8.6,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30 mins",
+                            "lastMileTravelString": "8.6 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2023-10-26 06:00:00",
+                            "opened": true
+                          },
+                          "badges": {},
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {},
+                              "textBased": {},
+                              "textExtendedBadges": {}
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "20% OFF",
+                            "subHeader": "ABOVE ₹700",
+                            "discountTag": "FLAT DEAL"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {},
+                            "subTitle": {},
+                            "message": {},
+                            "customIcon": {}
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {},
+                              "video": {}
+                            }
+                          },
+                          "reviewsSummary": {},
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {},
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/the-fritter-company-2nd-stage-btm-layout-bangalore-291456",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "121603",
+                          "name": "Kannur Food Point",
+                          "cloudinaryImageId": "bmwn4n4bn6n1tcpc8x2h",
+                          "locality": "SG Palya",
+                          "areaName": "Tavarekere",
+                          "costForTwo": "₹300 for two",
+                          "cuisines": [
+                            "Kerala",
+                            "Chinese"
+                          ],
+                          "avgRating": 3.9,
+                          "feeDetails": {
+                            "restaurantId": "121603",
+                            "fees": [
+                              {
+                                "name": "BASE_TIME"
+                              },
+                              {
+                                "name": "BASE_DISTANCE",
+                                "fee": 8000
+                              },
+                              {
+                                "name": "ANCILLARY_SURGE_FEE"
+                              }
+                            ],
+                            "totalFee": 8000
+                          },
+                          "parentId": "20974",
+                          "avgRatingString": "3.9",
+                          "totalRatingsString": "10K+",
+                          "sla": {
+                            "deliveryTime": 23,
+                            "lastMileTravel": 6.1,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "23 mins",
+                            "lastMileTravelString": "6.1 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2023-10-26 02:50:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "textExtendedBadges": [
+                              {
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available",
+                                "fontColor": "#7E808C"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "aggregatedDiscountInfoV2": {},
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {},
+                              "textBased": {},
+                              "textExtendedBadges": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "",
+                                      "fontColor": "#7E808C",
+                                      "iconId": "guiltfree/GF_Logo_android_3x",
+                                      "shortDescription": "options available"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          "orderabilityCommunication": {
+                            "title": {},
+                            "subTitle": {},
+                            "message": {},
+                            "customIcon": {}
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {},
+                              "video": {}
+                            }
+                          },
+                          "reviewsSummary": {},
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {},
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/kannur-food-point-sg-palya-tavarekere-bangalore-121603",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "151076",
+                          "name": "Captain Olive",
+                          "cloudinaryImageId": "f5f9d4821b9c667a424d971079f95815",
+                          "locality": "2nd Stage",
+                          "areaName": "BTM Layout",
+                          "costForTwo": "₹350 for two",
+                          "cuisines": [
+                            "Burgers",
+                            "American",
+                            "Salads",
+                            "Snacks",
+                            "Desserts",
+                            "Fast Food",
+                            "Continental"
+                          ],
+                          "avgRating": 4.2,
+                          "feeDetails": {
+                            "restaurantId": "151076",
+                            "fees": [
+                              {
+                                "name": "BASE_DISTANCE",
+                                "fee": 10000
+                              },
+                              {
+                                "name": "BASE_TIME"
+                              },
+                              {
+                                "name": "ANCILLARY_SURGE_FEE"
+                              }
+                            ],
+                            "totalFee": 10000
+                          },
+                          "parentId": "21078",
+                          "avgRatingString": "4.2",
+                          "totalRatingsString": "5K+",
+                          "sla": {
+                            "deliveryTime": 31,
+                            "lastMileTravel": 8.6,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "31 mins",
+                            "lastMileTravelString": "8.6 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2023-10-26 06:00:00",
+                            "opened": true
+                          },
+                          "badges": {},
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {},
+                              "textBased": {},
+                              "textExtendedBadges": {}
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "20% OFF",
+                            "subHeader": "ABOVE ₹700",
+                            "discountTag": "FLAT DEAL"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {},
+                            "subTitle": {},
+                            "message": {},
+                            "customIcon": {}
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {},
+                              "video": {}
+                            }
+                          },
+                          "reviewsSummary": {},
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {},
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/captain-olive-2nd-stage-btm-layout-bangalore-151076",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "709119",
+                          "name": "Irani Std. Tea",
+                          "cloudinaryImageId": "1e756ee8d230b65d570f7e8e70f7062c",
+                          "locality": "6th Main Rd",
+                          "areaName": "Indiranagar",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Beverages",
+                            "Snacks",
+                            "Fast Food"
+                          ],
+                          "avgRating": 3.5,
+                          "feeDetails": {
+                            "restaurantId": "709119",
+                            "fees": [
+                              {
+                                "name": "BASE_DISTANCE",
+                                "fee": 11000
+                              },
+                              {
+                                "name": "BASE_TIME"
+                              },
+                              {
+                                "name": "ANCILLARY_SURGE_FEE"
+                              }
+                            ],
+                            "totalFee": 11000
+                          },
+                          "parentId": "374583",
+                          "avgRatingString": "3.5",
+                          "totalRatingsString": "50+",
+                          "sla": {
+                            "deliveryTime": 30,
+                            "lastMileTravel": 9.9,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30 mins",
+                            "lastMileTravelString": "9.9 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2023-11-01 00:00:00",
+                            "opened": true
+                          },
+                          "badges": {},
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {},
+                              "textBased": {},
+                              "textExtendedBadges": {}
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "20% OFF",
+                            "subHeader": "UPTO ₹120"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {},
+                            "subTitle": {},
+                            "message": {},
+                            "customIcon": {}
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {},
+                              "video": {}
+                            }
+                          },
+                          "reviewsSummary": {},
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "isNewlyOnboarded": true,
+                          "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {},
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/irani-std-tea-6th-main-rd-indiranagar-bangalore-709119",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "176212",
+                          "name": "Temperature",
+                          "cloudinaryImageId": "pumkvlptxkneyfdtisf5",
+                          "locality": "2nd Stage",
+                          "areaName": "Btm Layout",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Desserts",
+                            "Chaat",
+                            "Juices",
+                            "Beverages",
+                            "Snacks"
+                          ],
+                          "avgRating": 4,
+                          "feeDetails": {
+                            "restaurantId": "176212",
+                            "fees": [
+                              {
+                                "name": "BASE_TIME"
+                              },
+                              {
+                                "name": "BASE_DISTANCE",
+                                "fee": 10000
+                              },
+                              {
+                                "name": "ANCILLARY_SURGE_FEE"
+                              }
+                            ],
+                            "totalFee": 10000
+                          },
+                          "parentId": "203067",
+                          "avgRatingString": "4.0",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 31,
+                            "lastMileTravel": 8.6,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "31 mins",
+                            "lastMileTravelString": "8.6 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2023-11-01 00:00:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "textExtendedBadges": [
+                              {
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available",
+                                "fontColor": "#7E808C"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {},
+                              "textBased": {},
+                              "textExtendedBadges": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "",
+                                      "fontColor": "#7E808C",
+                                      "iconId": "guiltfree/GF_Logo_android_3x",
+                                      "shortDescription": "options available"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "20% OFF",
+                            "subHeader": "ABOVE ₹500",
+                            "discountTag": "FLAT DEAL"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {},
+                            "subTitle": {},
+                            "message": {},
+                            "customIcon": {}
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {},
+                              "video": {}
+                            }
+                          },
+                          "reviewsSummary": {},
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {},
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/temperature-2nd-stage-btm-layout-bangalore-176212",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "619503",
+                          "name": "Litti Heist",
+                          "cloudinaryImageId": "kq5fmu174kikep8wfljh",
+                          "locality": "1st Block",
+                          "areaName": "Koramangala",
+                          "costForTwo": "₹200 for two",
+                          "cuisines": [
+                            "Indian",
+                            "Beverages",
+                            "Chaat"
+                          ],
+                          "avgRating": 4.3,
+                          "feeDetails": {
+                            "restaurantId": "619503",
+                            "fees": [
+                              {
+                                "name": "BASE_TIME"
+                              },
+                              {
+                                "name": "BASE_DISTANCE",
+                                "fee": 11000
+                              },
+                              {
+                                "name": "ANCILLARY_SURGE_FEE"
+                              }
+                            ],
+                            "totalFee": 11000
+                          },
+                          "parentId": "369080",
+                          "avgRatingString": "4.3",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 30,
+                            "lastMileTravel": 9.1,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "30 mins",
+                            "lastMileTravelString": "9.1 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2023-10-26 03:00:00",
+                            "opened": true
+                          },
+                          "badges": {},
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {},
+                              "textBased": {},
+                              "textExtendedBadges": {}
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "20% OFF",
+                            "subHeader": "ABOVE ₹600",
+                            "discountTag": "FLAT DEAL"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {},
+                            "subTitle": {},
+                            "message": {},
+                            "customIcon": {}
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {},
+                              "video": {}
+                            }
+                          },
+                          "reviewsSummary": {},
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {},
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/litti-heist-1st-block-koramangala-bangalore-619503",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      },
+                      {
+                        "info": {
+                          "id": "362852",
+                          "name": "Craving O Clock",
+                          "cloudinaryImageId": "fead0e8d60d85a0804b1134889c3c482",
+                          "locality": "2nd Stage",
+                          "areaName": "Btm Layout",
+                          "costForTwo": "₹300 for two",
+                          "cuisines": [
+                            "American",
+                            "Beverages",
+                            "Continental",
+                            "Healthy Food",
+                            "Snacks",
+                            "North Indian",
+                            "Mexican",
+                            "Salads"
+                          ],
+                          "avgRating": 4.3,
+                          "feeDetails": {
+                            "restaurantId": "362852",
+                            "fees": [
+                              {
+                                "name": "BASE_DISTANCE",
+                                "fee": 10000
+                              },
+                              {
+                                "name": "BASE_TIME"
+                              },
+                              {
+                                "name": "ANCILLARY_SURGE_FEE"
+                              }
+                            ],
+                            "totalFee": 10000
+                          },
+                          "parentId": "65598",
+                          "avgRatingString": "4.3",
+                          "totalRatingsString": "1K+",
+                          "sla": {
+                            "deliveryTime": 35,
+                            "lastMileTravel": 8.5,
+                            "serviceability": "SERVICEABLE",
+                            "slaString": "35 mins",
+                            "lastMileTravelString": "8.5 km",
+                            "iconType": "ICON_TYPE_EMPTY"
+                          },
+                          "availability": {
+                            "nextCloseTime": "2023-10-26 07:59:00",
+                            "opened": true
+                          },
+                          "badges": {
+                            "textExtendedBadges": [
+                              {
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available",
+                                "fontColor": "#7E808C"
+                              }
+                            ]
+                          },
+                          "isOpen": true,
+                          "type": "F",
+                          "badgesV2": {
+                            "entityBadges": {
+                              "imageBased": {},
+                              "textBased": {},
+                              "textExtendedBadges": {
+                                "badgeObject": [
+                                  {
+                                    "attributes": {
+                                      "description": "",
+                                      "fontColor": "#7E808C",
+                                      "iconId": "guiltfree/GF_Logo_android_3x",
+                                      "shortDescription": "options available"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          "aggregatedDiscountInfoV3": {
+                            "header": "15% OFF",
+                            "subHeader": "ABOVE ₹700",
+                            "discountTag": "FLAT DEAL"
+                          },
+                          "orderabilityCommunication": {
+                            "title": {},
+                            "subTitle": {},
+                            "message": {},
+                            "customIcon": {}
+                          },
+                          "differentiatedUi": {
+                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                            "differentiatedUiMediaDetails": {
+                              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                              "lottie": {},
+                              "video": {}
+                            }
+                          },
+                          "reviewsSummary": {},
+                          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                          "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {},
+                        "cta": {
+                          "link": "https://www.swiggy.com/restaurants/craving-o-clock-2nd-stage-btm-layout-bangalore-362852",
+                          "text": "RESTAURANT_MENU",
+                          "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                      }
+                    ],
+                    "theme": "SeoRestaurantListingGridWidget"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "firstOffsetRequest": true,
+        "nextFetch": 3
+      },
+      "jid": "a385f319-b200-4ae8-a95f-507c049c0860"
+    },
+    "statusCode": 0
+  } 
